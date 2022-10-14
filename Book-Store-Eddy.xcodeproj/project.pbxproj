@@ -10,7 +10,6 @@
 		64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435B28F9718A00F9E548 /* AppDelegate.swift */; };
 		64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435D28F9718A00F9E548 /* SceneDelegate.swift */; };
 		64D8436028F9718A00F9E548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435F28F9718A00F9E548 /* ViewController.swift */; };
-		64D8436328F9718A00F9E548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436128F9718A00F9E548 /* Main.storyboard */; };
 		64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */; };
 		64D8436828F9718A00F9E548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436728F9718A00F9E548 /* Assets.xcassets */; };
 		64D8436B28F9718A00F9E548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */; };
@@ -41,7 +40,6 @@
 		64D8435B28F9718A00F9E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D8435D28F9718A00F9E548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		64D8435F28F9718A00F9E548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		64D8436228F9718A00F9E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Book_Store_Eddy.xcdatamodel; sourceTree = "<group>"; };
 		64D8436728F9718A00F9E548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D8436A28F9718A00F9E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				64D8435B28F9718A00F9E548 /* AppDelegate.swift */,
 				64D8435D28F9718A00F9E548 /* SceneDelegate.swift */,
 				64D8435F28F9718A00F9E548 /* ViewController.swift */,
-				64D8436128F9718A00F9E548 /* Main.storyboard */,
 				64D8436728F9718A00F9E548 /* Assets.xcassets */,
 				64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */,
 				64D8436C28F9718A00F9E548 /* Info.plist */,
@@ -236,7 +233,6 @@
 			files = (
 				64D8436B28F9718A00F9E548 /* LaunchScreen.storyboard in Resources */,
 				64D8436828F9718A00F9E548 /* Assets.xcassets in Resources */,
-				64D8436328F9718A00F9E548 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64D8436128F9718A00F9E548 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64D8436228F9718A00F9E548 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +434,6 @@
 				INFOPLIST_FILE = "Book-Store-Eddy/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +461,6 @@
 				INFOPLIST_FILE = "Book-Store-Eddy/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
