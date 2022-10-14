@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435B28F9718A00F9E548 /* AppDelegate.swift */; };
+		64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435D28F9718A00F9E548 /* SceneDelegate.swift */; };
+		64D8436028F9718A00F9E548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435F28F9718A00F9E548 /* ViewController.swift */; };
+		64D8436328F9718A00F9E548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436128F9718A00F9E548 /* Main.storyboard */; };
+		64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */; };
+		64D8436828F9718A00F9E548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436728F9718A00F9E548 /* Assets.xcassets */; };
+		64D8436B28F9718A00F9E548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */; };
+		64D8437628F9718A00F9E548 /* Book_Store_EddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8437528F9718A00F9E548 /* Book_Store_EddyTests.swift */; };
+		64D8438028F9718B00F9E548 /* Book_Store_EddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */; };
+		64D8438228F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D8437228F9718A00F9E548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D8435028F9718A00F9E548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D8435728F9718A00F9E548;
+			remoteInfo = "Book-Store-Eddy";
+		};
+		64D8437C28F9718B00F9E548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D8435028F9718A00F9E548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D8435728F9718A00F9E548;
+			remoteInfo = "Book-Store-Eddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64D8435828F9718A00F9E548 /* Book-Store-Eddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-Store-Eddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D8435B28F9718A00F9E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D8435D28F9718A00F9E548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64D8435F28F9718A00F9E548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D8436228F9718A00F9E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Book_Store_Eddy.xcdatamodel; sourceTree = "<group>"; };
+		64D8436728F9718A00F9E548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D8436A28F9718A00F9E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D8436C28F9718A00F9E548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D8437128F9718A00F9E548 /* Book-Store-EddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book-Store-EddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D8437528F9718A00F9E548 /* Book_Store_EddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyTests.swift; sourceTree = "<group>"; };
+		64D8437B28F9718B00F9E548 /* Book-Store-EddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book-Store-EddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyUITests.swift; sourceTree = "<group>"; };
+		64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D8435528F9718A00F9E548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8436E28F9718A00F9E548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8437828F9718B00F9E548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D8434F28F9718A00F9E548 = {
+			isa = PBXGroup;
+			children = (
+				64D8435A28F9718A00F9E548 /* Book-Store-Eddy */,
+				64D8437428F9718A00F9E548 /* Book-Store-EddyTests */,
+				64D8437E28F9718B00F9E548 /* Book-Store-EddyUITests */,
+				64D8435928F9718A00F9E548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D8435928F9718A00F9E548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D8435828F9718A00F9E548 /* Book-Store-Eddy.app */,
+				64D8437128F9718A00F9E548 /* Book-Store-EddyTests.xctest */,
+				64D8437B28F9718B00F9E548 /* Book-Store-EddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D8435A28F9718A00F9E548 /* Book-Store-Eddy */ = {
+			isa = PBXGroup;
+			children = (
+				64D8435B28F9718A00F9E548 /* AppDelegate.swift */,
+				64D8435D28F9718A00F9E548 /* SceneDelegate.swift */,
+				64D8435F28F9718A00F9E548 /* ViewController.swift */,
+				64D8436128F9718A00F9E548 /* Main.storyboard */,
+				64D8436728F9718A00F9E548 /* Assets.xcassets */,
+				64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */,
+				64D8436C28F9718A00F9E548 /* Info.plist */,
+				64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */,
+			);
+			path = "Book-Store-Eddy";
+			sourceTree = "<group>";
+		};
+		64D8437428F9718A00F9E548 /* Book-Store-EddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D8437528F9718A00F9E548 /* Book_Store_EddyTests.swift */,
+			);
+			path = "Book-Store-EddyTests";
+			sourceTree = "<group>";
+		};
+		64D8437E28F9718B00F9E548 /* Book-Store-EddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */,
+				64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */,
+			);
+			path = "Book-Store-EddyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D8435728F9718A00F9E548 /* Book-Store-Eddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D8438528F9718B00F9E548 /* Build configuration list for PBXNativeTarget "Book-Store-Eddy" */;
+			buildPhases = (
+				64D8435428F9718A00F9E548 /* Sources */,
+				64D8435528F9718A00F9E548 /* Frameworks */,
+				64D8435628F9718A00F9E548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Book-Store-Eddy";
+			productName = "Book-Store-Eddy";
+			productReference = 64D8435828F9718A00F9E548 /* Book-Store-Eddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D8437028F9718A00F9E548 /* Book-Store-EddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D8438828F9718B00F9E548 /* Build configuration list for PBXNativeTarget "Book-Store-EddyTests" */;
+			buildPhases = (
+				64D8436D28F9718A00F9E548 /* Sources */,
+				64D8436E28F9718A00F9E548 /* Frameworks */,
+				64D8436F28F9718A00F9E548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D8437328F9718A00F9E548 /* PBXTargetDependency */,
+			);
+			name = "Book-Store-EddyTests";
+			productName = "Book-Store-EddyTests";
+			productReference = 64D8437128F9718A00F9E548 /* Book-Store-EddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64D8437A28F9718B00F9E548 /* Book-Store-EddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D8438B28F9718B00F9E548 /* Build configuration list for PBXNativeTarget "Book-Store-EddyUITests" */;
+			buildPhases = (
+				64D8437728F9718B00F9E548 /* Sources */,
+				64D8437828F9718B00F9E548 /* Frameworks */,
+				64D8437928F9718B00F9E548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D8437D28F9718B00F9E548 /* PBXTargetDependency */,
+			);
+			name = "Book-Store-EddyUITests";
+			productName = "Book-Store-EddyUITests";
+			productReference = 64D8437B28F9718B00F9E548 /* Book-Store-EddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D8435028F9718A00F9E548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					64D8435728F9718A00F9E548 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					64D8437028F9718A00F9E548 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64D8435728F9718A00F9E548;
+					};
+					64D8437A28F9718B00F9E548 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64D8435728F9718A00F9E548;
+					};
+				};
+			};
+			buildConfigurationList = 64D8435328F9718A00F9E548 /* Build configuration list for PBXProject "Book-Store-Eddy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D8434F28F9718A00F9E548;
+			productRefGroup = 64D8435928F9718A00F9E548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D8435728F9718A00F9E548 /* Book-Store-Eddy */,
+				64D8437028F9718A00F9E548 /* Book-Store-EddyTests */,
+				64D8437A28F9718B00F9E548 /* Book-Store-EddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D8435628F9718A00F9E548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D8436B28F9718A00F9E548 /* LaunchScreen.storyboard in Resources */,
+				64D8436828F9718A00F9E548 /* Assets.xcassets in Resources */,
+				64D8436328F9718A00F9E548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8436F28F9718A00F9E548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8437928F9718B00F9E548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D8435428F9718A00F9E548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */,
+				64D8436028F9718A00F9E548 /* ViewController.swift in Sources */,
+				64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */,
+				64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8436D28F9718A00F9E548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D8437628F9718A00F9E548 /* Book_Store_EddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8437728F9718B00F9E548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D8438028F9718B00F9E548 /* Book_Store_EddyUITests.swift in Sources */,
+				64D8438228F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D8437328F9718A00F9E548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D8435728F9718A00F9E548 /* Book-Store-Eddy */;
+			targetProxy = 64D8437228F9718A00F9E548 /* PBXContainerItemProxy */;
+		};
+		64D8437D28F9718B00F9E548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D8435728F9718A00F9E548 /* Book-Store-Eddy */;
+			targetProxy = 64D8437C28F9718B00F9E548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D8436128F9718A00F9E548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D8436228F9718A00F9E548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D8436A28F9718A00F9E548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D8438328F9718B00F9E548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D8438428F9718B00F9E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D8438628F9718B00F9E548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Book-Store-Eddy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eddy.Book-Store-Eddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D8438728F9718B00F9E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Book-Store-Eddy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eddy.Book-Store-Eddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64D8438928F9718B00F9E548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eddy.Book-Store-EddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book-Store-Eddy.app/Book-Store-Eddy";
+			};
+			name = Debug;
+		};
+		64D8438A28F9718B00F9E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eddy.Book-Store-EddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book-Store-Eddy.app/Book-Store-Eddy";
+			};
+			name = Release;
+		};
+		64D8438C28F9718B00F9E548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eddy.Book-Store-EddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Book-Store-Eddy";
+			};
+			name = Debug;
+		};
+		64D8438D28F9718B00F9E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eddy.Book-Store-EddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Book-Store-Eddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D8435328F9718A00F9E548 /* Build configuration list for PBXProject "Book-Store-Eddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D8438328F9718B00F9E548 /* Debug */,
+				64D8438428F9718B00F9E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D8438528F9718B00F9E548 /* Build configuration list for PBXNativeTarget "Book-Store-Eddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D8438628F9718B00F9E548 /* Debug */,
+				64D8438728F9718B00F9E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D8438828F9718B00F9E548 /* Build configuration list for PBXNativeTarget "Book-Store-EddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D8438928F9718B00F9E548 /* Debug */,
+				64D8438A28F9718B00F9E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D8438B28F9718B00F9E548 /* Build configuration list for PBXNativeTarget "Book-Store-EddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D8438C28F9718B00F9E548 /* Debug */,
+				64D8438D28F9718B00F9E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */,
+			);
+			currentVersion = 64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */;
+			path = Book_Store_Eddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64D8435028F9718A00F9E548 /* Project object */;
+}
