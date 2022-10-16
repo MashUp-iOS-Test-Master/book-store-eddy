@@ -111,8 +111,8 @@
 		64D8435A28F9718A00F9E548 /* Book-Store-Eddy */ = {
 			isa = PBXGroup;
 			children = (
-				64D8435B28F9718A00F9E548 /* AppDelegate.swift */,
-				64D8435D28F9718A00F9E548 /* SceneDelegate.swift */,
+				64D8439928FADC1300F9E548 /* Application */,
+				64D8439A28FADC1B00F9E548 /* ViewController */,
 				64D8439828FADC0A00F9E548 /* Model */,
 				64D8439128FAD94B00F9E548 /* Storage */,
 				64D8436728F9718A00F9E548 /* Assets.xcassets */,
@@ -158,6 +158,23 @@
 				64D8439628FADBD000F9E548 /* Book.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		64D8439928FADC1300F9E548 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				64D8435B28F9718A00F9E548 /* AppDelegate.swift */,
+				64D8435D28F9718A00F9E548 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		64D8439A28FADC1B00F9E548 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64D8435F28F9718A00F9E548 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
