@@ -16,6 +16,12 @@
 		64D8437628F9718A00F9E548 /* Book_Store_EddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8437528F9718A00F9E548 /* Book_Store_EddyTests.swift */; };
 		64D8438028F9718B00F9E548 /* Book_Store_EddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */; };
 		64D8438228F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */; };
+		64D8439028FAD94100F9E548 /* BookStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D8438E28FAD94100F9E548 /* BookStore.xcdatamodeld */; };
+		64D8439728FADBD000F9E548 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439628FADBD000F9E548 /* Book.swift */; };
+		64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439B28FADC3C00F9E548 /* PersistentManager.swift */; };
+		64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439D28FADC6D00F9E548 /* Storage.swift */; };
+		64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */; };
+		64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		64D8437B28F9718B00F9E548 /* Book-Store-EddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book-Store-EddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyUITests.swift; sourceTree = "<group>"; };
 		64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64D8438F28FAD94100F9E548 /* BookStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookStore.xcdatamodel; sourceTree = "<group>"; };
+		64D8439628FADBD000F9E548 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		64D8439B28FADC3C00F9E548 /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		64D8439D28FADC6D00F9E548 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,8 @@
 			children = (
 				64D8435B28F9718A00F9E548 /* AppDelegate.swift */,
 				64D8435D28F9718A00F9E548 /* SceneDelegate.swift */,
-				64D8435F28F9718A00F9E548 /* ViewController.swift */,
+				64D8439828FADC0A00F9E548 /* Model */,
+				64D8439128FAD94B00F9E548 /* Storage */,
 				64D8436728F9718A00F9E548 /* Assets.xcassets */,
 				64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */,
 				64D8436C28F9718A00F9E548 /* Info.plist */,
@@ -125,6 +138,26 @@
 				64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */,
 			);
 			path = "Book-Store-EddyUITests";
+			sourceTree = "<group>";
+		};
+		64D8439128FAD94B00F9E548 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */,
+				64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */,
+				64D8438E28FAD94100F9E548 /* BookStore.xcdatamodeld */,
+				64D8439B28FADC3C00F9E548 /* PersistentManager.swift */,
+				64D8439D28FADC6D00F9E548 /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		64D8439828FADC0A00F9E548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64D8439628FADBD000F9E548 /* Book.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */,
+				64D8439728FADBD000F9E548 /* Book.swift in Sources */,
+				64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */,
 				64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */,
 				64D8436028F9718A00F9E548 /* ViewController.swift in Sources */,
+				64D8439028FAD94100F9E548 /* BookStore.xcdatamodeld in Sources */,
 				64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */,
 				64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */,
+				64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */,
+				64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +640,16 @@
 			);
 			currentVersion = 64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */;
 			path = Book_Store_Eddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		64D8438E28FAD94100F9E548 /* BookStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64D8438F28FAD94100F9E548 /* BookStore.xcdatamodel */,
+			);
+			currentVersion = 64D8438F28FAD94100F9E548 /* BookStore.xcdatamodel */;
+			path = BookStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
