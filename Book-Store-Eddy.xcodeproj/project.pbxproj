@@ -23,6 +23,7 @@
 		64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */; };
 		64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */; };
 		64D843A828FBBB3F00F9E548 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */; };
+		64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843AD28FD4D2200F9E548 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		64D843AD28FD4D2200F9E548 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */,
+				64D843AD28FD4D2200F9E548 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			files = (
 				64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */,
 				64D8439728FADBD000F9E548 /* Book.swift in Sources */,
+				64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */,
 				64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */,
 				64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */,
 				64D8436028F9718A00F9E548 /* ViewController.swift in Sources */,
