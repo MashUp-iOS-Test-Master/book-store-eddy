@@ -12,9 +12,9 @@ final class HomeView: UIView {
 
     init() {
         super.init(frame: .zero)
+        self.backgroundColor = .white
         setTableView()
         setLayout()
-        self.backgroundColor = .white
     }
 
     required init?(coder: NSCoder) {

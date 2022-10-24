@@ -39,7 +39,8 @@ final class HomeViewCell: UITableViewCell {
     private let bookInfoStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.spacing = 5
+        stackView.distribution = .equalSpacing
+        stackView.axis = .horizontal
 
         return stackView
     }()

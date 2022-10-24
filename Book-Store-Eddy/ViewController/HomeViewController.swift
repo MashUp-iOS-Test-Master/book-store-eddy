@@ -11,28 +11,30 @@ final class HomeViewController: UIViewController {
     private let homeView = HomeView()
     private let dataManager = PersistentManager()
 
-//    override func loadView() {
-//        self.view = homeView
-//        self.view.backgroundColor = .blue
-//    }
+    override func loadView() {
+        self.view = homeView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        homeView.tableview.delegate = self
-        setLayout()
+        setTableView()
+        self.navigationItem.rightBarButtonItem = rightButton
     }
 
-    private func setLayout() {
-        self.view.addSubview(homeView)
-        homeView.backgroundColor = .white
-        homeView.translatesAutoresizingMaskIntoConstraints = false
+    private func setTableView() {
+        homeView.tableview.delegate = self
+        homeView.tableview.dataSource = self
+    }
 
-        NSLayoutConstraint.activate([
-            homeView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
-            homeView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
-            homeView.topAnchor.constraint(equalTo: self.view.topAnchor),
-            homeView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
-        ])
+    private lazy var rightButton: UIBarButtonItem = {
+        let button = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(buttonDidTapped))
+
+        return button
+    }()
+
+    @objc private func buttonDidTapped() {
+        let registerViewController = RegisterViewController()
+        self.navigationController?.pushViewController(registerViewController, animated: true)
     }
 }
 
@@ -42,9 +44,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: HomeViewCell.identifer) as? HomeViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: HomeViewCell.identifer) as? HomeViewCell else {
+            return UITableViewCell()
+
+        }
         let test = Book(name: "ㅎㅇ", category: "하이", publicationDate: "11", price: 123)
-        let books = dataManager.fetch()
+//        let books = dataManager.fetch()
         cell.configure(test)
 
         return cell
