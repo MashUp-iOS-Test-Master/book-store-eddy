@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		644D21F2290679E40033C9E2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D21F1290679E40033C9E2 /* RegisterViewController.swift */; };
+		644D21F6290686920033C9E2 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D21F5290686920033C9E2 /* AlertBuilder.swift */; };
+		644D21F8290686A30033C9E2 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D21F7290686A30033C9E2 /* AlertAction.swift */; };
 		64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435B28F9718A00F9E548 /* AppDelegate.swift */; };
 		64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435D28F9718A00F9E548 /* SceneDelegate.swift */; };
 		64D8436028F9718A00F9E548 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435F28F9718A00F9E548 /* HomeViewController.swift */; };
@@ -47,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		644D21F1290679E40033C9E2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		644D21F5290686920033C9E2 /* AlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		644D21F7290686A30033C9E2 /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
 		64D8435828F9718A00F9E548 /* Book-Store-Eddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-Store-Eddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8435B28F9718A00F9E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D8435D28F9718A00F9E548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				64D843AA28FBC09000F9E548 /* UIStackView+.swift */,
+				644D21F5290686920033C9E2 /* AlertBuilder.swift */,
+				644D21F7290686A30033C9E2 /* AlertAction.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -337,6 +343,7 @@
 			files = (
 				64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */,
 				64D8439728FADBD000F9E548 /* Book.swift in Sources */,
+				644D21F8290686A30033C9E2 /* AlertAction.swift in Sources */,
 				64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */,
 				64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */,
 				64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */,
@@ -346,6 +353,7 @@
 				64D843AB28FBC09000F9E548 /* UIStackView+.swift in Sources */,
 				644D21F2290679E40033C9E2 /* RegisterViewController.swift in Sources */,
 				64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */,
+				644D21F6290686920033C9E2 /* AlertBuilder.swift in Sources */,
 				64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */,
 				64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */,
 				64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */,
