@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644D21F2290679E40033C9E2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D21F1290679E40033C9E2 /* RegisterViewController.swift */; };
 		64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435B28F9718A00F9E548 /* AppDelegate.swift */; };
 		64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435D28F9718A00F9E548 /* SceneDelegate.swift */; };
-		64D8436028F9718A00F9E548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435F28F9718A00F9E548 /* ViewController.swift */; };
+		64D8436028F9718A00F9E548 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435F28F9718A00F9E548 /* HomeViewController.swift */; };
 		64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */; };
 		64D8436828F9718A00F9E548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436728F9718A00F9E548 /* Assets.xcassets */; };
 		64D8436B28F9718A00F9E548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */; };
@@ -22,6 +23,9 @@
 		64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439D28FADC6D00F9E548 /* Storage.swift */; };
 		64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */; };
 		64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */; };
+		64D843A828FBBB3F00F9E548 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */; };
+		64D843AB28FBC09000F9E548 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843AA28FBC09000F9E548 /* UIStackView+.swift */; };
+		64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843AD28FD4D2200F9E548 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		644D21F1290679E40033C9E2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		64D8435828F9718A00F9E548 /* Book-Store-Eddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-Store-Eddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8435B28F9718A00F9E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D8435D28F9718A00F9E548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64D8435F28F9718A00F9E548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D8435F28F9718A00F9E548 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Book_Store_Eddy.xcdatamodel; sourceTree = "<group>"; };
 		64D8436728F9718A00F9E548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D8436A28F9718A00F9E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		64D8439D28FADC6D00F9E548 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		64D843AA28FBC09000F9E548 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		64D843AD28FD4D2200F9E548 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,9 @@
 			children = (
 				64D8439928FADC1300F9E548 /* Application */,
 				64D8439A28FADC1B00F9E548 /* ViewController */,
+				64D843A928FBBB4C00F9E548 /* View */,
 				64D8439828FADC0A00F9E548 /* Model */,
+				64D843AC28FBC09800F9E548 /* Utils */,
 				64D8439128FAD94B00F9E548 /* Storage */,
 				64D8436728F9718A00F9E548 /* Assets.xcassets */,
 				64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */,
@@ -172,9 +182,27 @@
 		64D8439A28FADC1B00F9E548 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				64D8435F28F9718A00F9E548 /* ViewController.swift */,
+				64D8435F28F9718A00F9E548 /* HomeViewController.swift */,
+				644D21F1290679E40033C9E2 /* RegisterViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		64D843A928FBBB4C00F9E548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */,
+				64D843AD28FD4D2200F9E548 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64D843AC28FBC09800F9E548 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				64D843AA28FBC09000F9E548 /* UIStackView+.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,10 +337,14 @@
 			files = (
 				64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */,
 				64D8439728FADBD000F9E548 /* Book.swift in Sources */,
+				64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */,
 				64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */,
 				64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */,
-				64D8436028F9718A00F9E548 /* ViewController.swift in Sources */,
+				64D8436028F9718A00F9E548 /* HomeViewController.swift in Sources */,
+				64D843A828FBBB3F00F9E548 /* HomeViewCell.swift in Sources */,
 				64D8439028FAD94100F9E548 /* BookStore.xcdatamodeld in Sources */,
+				64D843AB28FBC09000F9E548 /* UIStackView+.swift in Sources */,
+				644D21F2290679E40033C9E2 /* RegisterViewController.swift in Sources */,
 				64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */,
 				64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */,
 				64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */,
