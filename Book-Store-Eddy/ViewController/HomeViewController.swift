@@ -5,11 +5,18 @@
 //  Created by Eddy on 2022/10/14.
 //
 
+import AVFoundation
 import UIKit
 
 final class HomeViewController: UIViewController {
     private let homeView = HomeView()
     private let dataManager = PersistentManager()
+    
+    var books: [Book] = [] {
+        didSet {
+            // price 업데이트
+        }
+    }
 
     override func loadView() {
         self.view = homeView
@@ -17,6 +24,7 @@ final class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        books = dataManager.fetch()
         setIndicatorView()
         indicatorView.startAnimating()
         // 클릭 해야만 화면이 나온다? 왜지...
@@ -65,14 +73,12 @@ final class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        return dataManager.fetch().count
+        return books.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: HomeViewCell.identifer) as? HomeViewCell else { return UITableViewCell() }
 
-        let books = dataManager.fetch()
         var totalPrice = 0
         
         books.forEach { book in
@@ -97,6 +103,22 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let category = Category(rawValue: indexPath.row)
+        switch category {
+        case .novel:
+            AudioServicesPlaySystemSound(1254)
+        case .technic:
+            self.view.backgroundColor = .systemRed
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
+                self?.view.backgroundColor = .white
+            }
+        case .economy:
+            break
+        case .poem:
+            AlertBuilder(target: self).addAction("으악", style: .default)
+                .show(style: .alert)
+        case .none:
+            break
+        }
     }
 }

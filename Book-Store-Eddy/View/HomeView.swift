@@ -36,7 +36,6 @@ final class HomeView: UIView {
     private let totalPriceLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "hello"
         
         return label
     }()

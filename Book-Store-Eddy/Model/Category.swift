@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum Category: CaseIterable {
-    case novel
+enum Category: Int, CaseIterable {
+    case novel = 0
     case technic
     case economy
     case poem
