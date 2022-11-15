@@ -10,5 +10,5 @@ import Foundation
 protocol Storage {
     func fetch() -> [Book] 
     func save(book: Book)
-    func delete(book: BookEntity, index: Int?)
+    func delete(book: Entity, index: Int?)
 }
