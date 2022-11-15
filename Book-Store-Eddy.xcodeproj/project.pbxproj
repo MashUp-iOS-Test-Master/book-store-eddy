@@ -13,21 +13,26 @@
 		64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435B28F9718A00F9E548 /* AppDelegate.swift */; };
 		64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435D28F9718A00F9E548 /* SceneDelegate.swift */; };
 		64D8436028F9718A00F9E548 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8435F28F9718A00F9E548 /* HomeViewController.swift */; };
-		64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */; };
 		64D8436828F9718A00F9E548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436728F9718A00F9E548 /* Assets.xcassets */; };
 		64D8436B28F9718A00F9E548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */; };
 		64D8437628F9718A00F9E548 /* Book_Store_EddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8437528F9718A00F9E548 /* Book_Store_EddyTests.swift */; };
 		64D8438028F9718B00F9E548 /* Book_Store_EddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */; };
 		64D8438228F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */; };
-		64D8439028FAD94100F9E548 /* BookStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D8438E28FAD94100F9E548 /* BookStore.xcdatamodeld */; };
 		64D8439728FADBD000F9E548 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439628FADBD000F9E548 /* Book.swift */; };
 		64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439B28FADC3C00F9E548 /* PersistentManager.swift */; };
 		64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8439D28FADC6D00F9E548 /* Storage.swift */; };
-		64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */; };
-		64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */; };
 		64D843A828FBBB3F00F9E548 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */; };
 		64D843AB28FBC09000F9E548 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843AA28FBC09000F9E548 /* UIStackView+.swift */; };
 		64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D843AD28FD4D2200F9E548 /* HomeView.swift */; };
+		E78F9CA92923279B00638B3E /* SwipeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CA82923279B00638B3E /* SwipeBuilder.swift */; };
+		E78F9CAB292327A200638B3E /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CAA292327A200638B3E /* SwipeAction.swift */; };
+		E78F9CAE29232D3000638B3E /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CAC29232D3000638B3E /* Entity+CoreDataClass.swift */; };
+		E78F9CAF29232D3000638B3E /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CAD29232D3000638B3E /* Entity+CoreDataProperties.swift */; };
+		E78F9CB129232F9A00638B3E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CB029232F9A00638B3E /* Category.swift */; };
+		E78F9CB32923331700638B3E /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CB22923331700638B3E /* Formatter.swift */; };
+		E78F9CB52923332B00638B3E /* Date+sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78F9CB42923332B00638B3E /* Date+sugar.swift */; };
+		E7B9BDEC292318B10015BFFF /* BookStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7B9BDEA292318B10015BFFF /* BookStore.xcdatamodeld */; };
+		E7B9BDF629231B840015BFFF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9BDF529231B840015BFFF /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +60,6 @@
 		64D8435B28F9718A00F9E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D8435D28F9718A00F9E548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		64D8435F28F9718A00F9E548 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Book_Store_Eddy.xcdatamodel; sourceTree = "<group>"; };
 		64D8436728F9718A00F9E548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D8436A28F9718A00F9E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64D8436C28F9718A00F9E548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,15 +68,21 @@
 		64D8437B28F9718B00F9E548 /* Book-Store-EddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book-Store-EddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8437F28F9718B00F9E548 /* Book_Store_EddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyUITests.swift; sourceTree = "<group>"; };
 		64D8438128F9718B00F9E548 /* Book_Store_EddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Store_EddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		64D8438F28FAD94100F9E548 /* BookStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookStore.xcdatamodel; sourceTree = "<group>"; };
 		64D8439628FADBD000F9E548 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		64D8439B28FADC3C00F9E548 /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
 		64D8439D28FADC6D00F9E548 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
-		64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		64D843AA28FBC09000F9E548 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 		64D843AD28FD4D2200F9E548 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E78F9CA82923279B00638B3E /* SwipeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBuilder.swift; sourceTree = "<group>"; };
+		E78F9CAA292327A200638B3E /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		E78F9CAC29232D3000638B3E /* Entity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E78F9CAD29232D3000638B3E /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E78F9CB029232F9A00638B3E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E78F9CB22923331700638B3E /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		E78F9CB42923332B00638B3E /* Date+sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+sugar.swift"; sourceTree = "<group>"; };
+		E7B9BDEB292318B10015BFFF /* BookStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookStore.xcdatamodel; sourceTree = "<group>"; };
+		E7B9BDF529231B840015BFFF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,8 @@
 		64D8435A28F9718A00F9E548 /* Book-Store-Eddy */ = {
 			isa = PBXGroup;
 			children = (
+				E78F9CAC29232D3000638B3E /* Entity+CoreDataClass.swift */,
+				E78F9CAD29232D3000638B3E /* Entity+CoreDataProperties.swift */,
 				64D8439928FADC1300F9E548 /* Application */,
 				64D8439A28FADC1B00F9E548 /* ViewController */,
 				64D843A928FBBB4C00F9E548 /* View */,
@@ -132,7 +144,6 @@
 				64D8436728F9718A00F9E548 /* Assets.xcassets */,
 				64D8436928F9718A00F9E548 /* LaunchScreen.storyboard */,
 				64D8436C28F9718A00F9E548 /* Info.plist */,
-				64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */,
 			);
 			path = "Book-Store-Eddy";
 			sourceTree = "<group>";
@@ -157,11 +168,9 @@
 		64D8439128FAD94B00F9E548 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				64D843A328FAE64D00F9E548 /* BookEntity+CoreDataClass.swift */,
-				64D843A428FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift */,
-				64D8438E28FAD94100F9E548 /* BookStore.xcdatamodeld */,
 				64D8439B28FADC3C00F9E548 /* PersistentManager.swift */,
 				64D8439D28FADC6D00F9E548 /* Storage.swift */,
+				E7B9BDEA292318B10015BFFF /* BookStore.xcdatamodeld */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -170,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				64D8439628FADBD000F9E548 /* Book.swift */,
+				E78F9CB029232F9A00638B3E /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +207,7 @@
 			children = (
 				64D843A728FBBB3F00F9E548 /* HomeViewCell.swift */,
 				64D843AD28FD4D2200F9E548 /* HomeView.swift */,
+				E7B9BDF529231B840015BFFF /* RegisterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +218,10 @@
 				64D843AA28FBC09000F9E548 /* UIStackView+.swift */,
 				644D21F5290686920033C9E2 /* AlertBuilder.swift */,
 				644D21F7290686A30033C9E2 /* AlertAction.swift */,
+				E78F9CA82923279B00638B3E /* SwipeBuilder.swift */,
+				E78F9CAA292327A200638B3E /* SwipeAction.swift */,
+				E78F9CB22923331700638B3E /* Formatter.swift */,
+				E78F9CB42923332B00638B3E /* Date+sugar.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -341,22 +356,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D843A528FAE64D00F9E548 /* BookEntity+CoreDataClass.swift in Sources */,
 				64D8439728FADBD000F9E548 /* Book.swift in Sources */,
 				644D21F8290686A30033C9E2 /* AlertAction.swift in Sources */,
+				E78F9CB32923331700638B3E /* Formatter.swift in Sources */,
+				E78F9CB129232F9A00638B3E /* Category.swift in Sources */,
 				64D843AE28FD4D2200F9E548 /* HomeView.swift in Sources */,
 				64D8439C28FADC3C00F9E548 /* PersistentManager.swift in Sources */,
-				64D8436628F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld in Sources */,
+				E7B9BDEC292318B10015BFFF /* BookStore.xcdatamodeld in Sources */,
+				E78F9CAE29232D3000638B3E /* Entity+CoreDataClass.swift in Sources */,
 				64D8436028F9718A00F9E548 /* HomeViewController.swift in Sources */,
+				E78F9CA92923279B00638B3E /* SwipeBuilder.swift in Sources */,
 				64D843A828FBBB3F00F9E548 /* HomeViewCell.swift in Sources */,
-				64D8439028FAD94100F9E548 /* BookStore.xcdatamodeld in Sources */,
 				64D843AB28FBC09000F9E548 /* UIStackView+.swift in Sources */,
 				644D21F2290679E40033C9E2 /* RegisterViewController.swift in Sources */,
 				64D8435C28F9718A00F9E548 /* AppDelegate.swift in Sources */,
+				E78F9CB52923332B00638B3E /* Date+sugar.swift in Sources */,
+				E78F9CAF29232D3000638B3E /* Entity+CoreDataProperties.swift in Sources */,
 				644D21F6290686920033C9E2 /* AlertBuilder.swift in Sources */,
 				64D8435E28F9718A00F9E548 /* SceneDelegate.swift in Sources */,
+				E78F9CAB292327A200638B3E /* SwipeAction.swift in Sources */,
+				E7B9BDF629231B840015BFFF /* RegisterView.swift in Sources */,
 				64D8439E28FADC6D00F9E548 /* Storage.swift in Sources */,
-				64D843A628FAE64D00F9E548 /* BookEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,22 +710,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		64D8436428F9718A00F9E548 /* Book_Store_Eddy.xcdatamodeld */ = {
+		E7B9BDEA292318B10015BFFF /* BookStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */,
+				E7B9BDEB292318B10015BFFF /* BookStore.xcdatamodel */,
 			);
-			currentVersion = 64D8436528F9718A00F9E548 /* Book_Store_Eddy.xcdatamodel */;
-			path = Book_Store_Eddy.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		64D8438E28FAD94100F9E548 /* BookStore.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				64D8438F28FAD94100F9E548 /* BookStore.xcdatamodel */,
-			);
-			currentVersion = 64D8438F28FAD94100F9E548 /* BookStore.xcdatamodel */;
+			currentVersion = E7B9BDEB292318B10015BFFF /* BookStore.xcdatamodel */;
 			path = BookStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -39,7 +39,7 @@ final class HomeViewCell: UITableViewCell {
     private let bookInfoStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.distribution = .equalSpacing
+        stackView.distribution = .fillEqually
         stackView.axis = .horizontal
 
         return stackView
@@ -58,7 +58,11 @@ final class HomeViewCell: UITableViewCell {
         nameLabel.text = book.name
         categoryLabel.text = book.category
         publicationDateLabel.text = book.publicationDate
-        priceLabel.text = String(book.price)
+        priceLabel.text = book.price
+    }
+    
+    func setPrice(_ book: Book) -> String {
+        book.price
     }
 
     private func setLayout() {

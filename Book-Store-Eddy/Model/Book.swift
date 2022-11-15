@@ -11,5 +11,5 @@ struct Book {
     let name: String
     let category: String
     let publicationDate: String
-    let price: Int
+    let price: String
 }

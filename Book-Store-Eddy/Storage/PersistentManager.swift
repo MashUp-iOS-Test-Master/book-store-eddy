@@ -28,16 +28,15 @@ final class PersistentManager: Storage {
     }
 
     init() {
-        let request = BookEntity.fetchRequest()
+        let request = Entity.fetchRequest()
         let sort = NSSortDescriptor(key: "name", ascending: false)
         request.sortDescriptors = [sort]
         guard let bookData = try? mainContext.fetch(request) else { return }
         let bookEntites = bookData.map { bookEntity in
-            Book(name: bookEntity.name, category: bookEntity.category, publicationDate: bookEntity.publicationDate, price: Int(bookEntity.price))
+            Book(name: bookEntity.name, category: bookEntity.category, publicationDate: bookEntity.publicationDate, price: bookEntity.price)
         }
 
-        // MARK: - 강제언래핑 추후 제거
-        books.append(bookEntites.first!)
+        books += bookEntites
     }
 
     private func saveContext() {
@@ -54,10 +53,6 @@ final class PersistentManager: Storage {
 
     func fetch() -> [Book]{
         return books
-//        let request = BookEntity.fetchRequest()
-//        request.returnsObjectsAsFaults = false
-//        let fetchResult = try mainContext.fetch(request)
-//        books = fetchResult
     }
 
     func save(book: Book) {
@@ -65,18 +60,19 @@ final class PersistentManager: Storage {
 
         books.append(book)
 
-        let entity = BookEntity(context: mainContext)
+        let entity = Entity(context: mainContext)
         entity.name = book.name
         entity.category = book.category
         entity.publicationDate = book.publicationDate
-        entity.price = Int16(book.price)
+        entity.price = book.price
         saveContext()
     }
 
-    func delete(book: BookEntity, index: Int? = nil) {
+    func delete(book: Entity, index: Int?) {
         if let index = index {
             books.remove(at: index)
         }
+
         mainContext.delete(book)
         saveContext()
     }
